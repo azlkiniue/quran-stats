@@ -16,13 +16,13 @@ import {
 
 interface Props {
   children: React.ReactNode
-  open: boolean // remove this if not using cookies for sidebar state
+  open?: boolean
   breadcrumbs: string
 }
 
 export default function Page(props: Props) {
   return (
-    <SidebarProvider defaultOpen={props.open}>
+    <SidebarProvider defaultOpen={props.open ?? true}>
       <AppSidebar />
       <SidebarInset>
         <header className="flex h-16 shrink-0 items-center gap-2 border-b">

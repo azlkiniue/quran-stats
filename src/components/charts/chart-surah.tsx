@@ -11,685 +11,685 @@ import {
 // https://qurananalysis.com/analysis/basic-statistics.php
 const chartData = [
   {
-    "Chapter": "1. The Opening",
+    "Chapter": "1. The Opening (Al-Fatiha)",
     "Verses": 7,
     "Words": 74,
     "Chars": 314
   },
   {
-    "Chapter": "2. The Cow",
+    "Chapter": "2. The Cow (Al-Baqarah)",
     "Verses": 286,
     "Words": 12316,
     "Chars": 52639
   },
   {
-    "Chapter": "3. The Family of Imraan",
+    "Chapter": "3. The Family of Imraan (Aal-i-Imraan)",
     "Verses": 200,
     "Words": 7080,
     "Chars": 30276
   },
   {
-    "Chapter": "4. The Women",
+    "Chapter": "4. The Women (An-Nisa)",
     "Verses": 176,
     "Words": 7347,
     "Chars": 31845
   },
   {
-    "Chapter": "5. The Table",
+    "Chapter": "5. The Table (Al-Ma'idah)",
     "Verses": 120,
     "Words": 5598,
     "Chars": 23932
   },
   {
-    "Chapter": "6. The Cattle",
+    "Chapter": "6. The Cattle (Al-An'am)",
     "Verses": 165,
     "Words": 6226,
     "Chars": 26109
   },
   {
-    "Chapter": "7. The Heights",
+    "Chapter": "7. The Heights (Al-A'raf)",
     "Verses": 206,
     "Words": 6796,
     "Chars": 28550
   },
   {
-    "Chapter": "8. The Spoils of War",
+    "Chapter": "8. The Spoils of War (Al-Anfal)",
     "Verses": 75,
     "Words": 2525,
     "Chars": 10834
   },
   {
-    "Chapter": "9. The Repentance",
+    "Chapter": "9. The Repentance (At-Tawbah)",
     "Verses": 129,
     "Words": 5169,
     "Chars": 22679
   },
   {
-    "Chapter": "10. Jonas",
+    "Chapter": "10. Jonas (Yunus)",
     "Verses": 109,
     "Words": 3588,
     "Chars": 14947
   },
   {
-    "Chapter": "11. Hud",
+    "Chapter": "11. Hud (Hud)",
     "Verses": 123,
     "Words": 3930,
     "Chars": 16168
   },
   {
-    "Chapter": "12. Joseph",
+    "Chapter": "12. Joseph (Yusuf)",
     "Verses": 111,
     "Words": 3566,
     "Chars": 14512
   },
   {
-    "Chapter": "13. The Thunder",
+    "Chapter": "13. The Thunder (Ar-Ra'd)",
     "Verses": 43,
     "Words": 1701,
     "Chars": 7360
   },
   {
-    "Chapter": "14. Abraham",
+    "Chapter": "14. Abraham (Ibrahim)",
     "Verses": 52,
     "Words": 1649,
     "Chars": 7050
   },
   {
-    "Chapter": "15. The Rock",
+    "Chapter": "15. The Rock (Al-Hijr)",
     "Verses": 99,
     "Words": 1389,
     "Chars": 5896
   },
   {
-    "Chapter": "16. The Bee",
+    "Chapter": "16. The Bee (An-Nahl)",
     "Verses": 128,
     "Words": 3757,
     "Chars": 15908
   },
   {
-    "Chapter": "17. The Night Journey",
+    "Chapter": "17. The Night Journey (Al-Isra)",
     "Verses": 111,
     "Words": 3223,
     "Chars": 13549
   },
   {
-    "Chapter": "18. The Cave",
+    "Chapter": "18. The Cave (Al-Kahf)",
     "Verses": 110,
     "Words": 3350,
     "Chars": 13823
   },
   {
-    "Chapter": "19. Mary",
+    "Chapter": "19. Mary (Maryam)",
     "Verses": 98,
     "Words": 2036,
     "Chars": 8188
   },
   {
-    "Chapter": "20. Taa-Haa",
+    "Chapter": "20. Taa-Haa (Taa-Haa)",
     "Verses": 135,
     "Words": 2830,
     "Chars": 11608
   },
   {
-    "Chapter": "21. The Prophets",
+    "Chapter": "21. The Prophets (Al-Anbiya)",
     "Verses": 112,
     "Words": 2437,
     "Chars": 10109
   },
   {
-    "Chapter": "22. The Pilgrimage",
+    "Chapter": "22. The Pilgrimage (Al-Hajj)",
     "Verses": 78,
     "Words": 2537,
     "Chars": 10938
   },
   {
-    "Chapter": "23. The Believers",
+    "Chapter": "23. The Believers (Al-Mu'minun)",
     "Verses": 118,
     "Words": 2116,
     "Chars": 8871
   },
   {
-    "Chapter": "24. The Light",
+    "Chapter": "24. The Light (An-Nur)",
     "Verses": 64,
     "Words": 2611,
     "Chars": 11316
   },
   {
-    "Chapter": "25. The Criterion",
+    "Chapter": "25. The Criterion (Al-Furqan)",
     "Verses": 77,
     "Words": 1846,
     "Chars": 7811
   },
   {
-    "Chapter": "26. The Poets",
+    "Chapter": "26. The Poets (Ash-Shu'ara)",
     "Verses": 227,
     "Words": 2710,
     "Chars": 10938
   },
   {
-    "Chapter": "27. The Ant",
+    "Chapter": "27. The Ant (An-Naml)",
     "Verses": 93,
     "Words": 2352,
     "Chars": 9712
   },
   {
-    "Chapter": "28. The Stories",
+    "Chapter": "28. The Stories (Al-Qasas)",
     "Verses": 88,
     "Words": 2900,
     "Chars": 11817
   },
   {
-    "Chapter": "29. The Spider",
+    "Chapter": "29. The Spider (Al-'Ankabut)",
     "Verses": 69,
     "Words": 1969,
     "Chars": 8353
   },
   {
-    "Chapter": "30. The Romans",
+    "Chapter": "30. The Romans (Ar-Rum)",
     "Verses": 60,
     "Words": 1636,
     "Chars": 7003
   },
   {
-    "Chapter": "31. Luqman",
+    "Chapter": "31. Luqman (Luqman)",
     "Verses": 34,
     "Words": 1038,
     "Chars": 4415
   },
   {
-    "Chapter": "32. The Prostration",
+    "Chapter": "32. The Prostration (As-Sajdah)",
     "Verses": 30,
     "Words": 745,
     "Chars": 3153
   },
   {
-    "Chapter": "33. The Clans",
+    "Chapter": "33. The Clans (Al-Ahzab)",
     "Verses": 73,
     "Words": 2594,
     "Chars": 11343
   },
   {
-    "Chapter": "34. Sheba",
+    "Chapter": "34. Sheba (Saba)",
     "Verses": 54,
     "Words": 1741,
     "Chars": 7287
   },
   {
-    "Chapter": "35. The Originator",
+    "Chapter": "35. The Originator (Fatir)",
     "Verses": 45,
     "Words": 1519,
     "Chars": 6492
   },
   {
-    "Chapter": "36. Yaseen",
+    "Chapter": "36. Yaseen (Yaseen)",
     "Verses": 83,
     "Words": 1498,
     "Chars": 6040
   },
   {
-    "Chapter": "37. Those drawn up in Ranks",
+    "Chapter": "37. Those drawn up in Ranks (As-Saffat)",
     "Verses": 182,
     "Words": 1881,
     "Chars": 7896
   },
   {
-    "Chapter": "38. The letter Saad",
+    "Chapter": "38. The letter Saad (Saad)",
     "Verses": 88,
     "Words": 1553,
     "Chars": 6600
   },
   {
-    "Chapter": "39. The Groups",
+    "Chapter": "39. The Groups (Az-Zumar)",
     "Verses": 75,
     "Words": 2319,
     "Chars": 9831
   },
   {
-    "Chapter": "40. The Forgiver",
+    "Chapter": "40. The Forgiver (Ghafir)",
     "Verses": 85,
     "Words": 2449,
     "Chars": 10388
   },
   {
-    "Chapter": "41. Explained in detail",
+    "Chapter": "41. Explained in detail (Fussilat)",
     "Verses": 54,
     "Words": 1648,
     "Chars": 6929
   },
   {
-    "Chapter": "42. Consultation",
+    "Chapter": "42. Consultation (Ash-Shura)",
     "Verses": 53,
     "Words": 1682,
     "Chars": 7227
   },
   {
-    "Chapter": "43. Ornaments of gold",
+    "Chapter": "43. Ornaments of gold (Al-Zukhruf)",
     "Verses": 89,
     "Words": 1785,
     "Chars": 7486
   },
   {
-    "Chapter": "44. The Smoke",
+    "Chapter": "44. The Smoke (Ad-Dukhan)",
     "Verses": 59,
     "Words": 710,
     "Chars": 3023
   },
   {
-    "Chapter": "45. Crouching",
+    "Chapter": "45. Crouching (Al-Jathiyah)",
     "Verses": 37,
     "Words": 999,
     "Chars": 4167
   },
   {
-    "Chapter": "46. The Dunes",
+    "Chapter": "46. The Dunes (Al-Ahqaf)",
     "Verses": 35,
     "Words": 1311,
     "Chars": 5561
   },
   {
-    "Chapter": "47. Muhammad",
+    "Chapter": "47. Muhammad (Muhammad)",
     "Verses": 38,
     "Words": 1099,
     "Chars": 4853
   },
   {
-    "Chapter": "48. The Victory",
+    "Chapter": "48. The Victory (Al-Fath)",
     "Verses": 29,
     "Words": 1169,
     "Chars": 5157
   },
   {
-    "Chapter": "49. The Inner Apartments",
+    "Chapter": "49. The Inner Apartments (Al-Hujurat)",
     "Verses": 18,
     "Words": 663,
     "Chars": 2889
   },
   {
-    "Chapter": "50. The letter Qaaf",
+    "Chapter": "50. The letter Qaaf (Qaf)",
     "Verses": 45,
     "Words": 762,
     "Chars": 3150
   },
   {
-    "Chapter": "51. The Winnowing Winds",
+    "Chapter": "51. The Winnowing Winds (Adh-Dhariyat)",
     "Verses": 60,
     "Words": 753,
     "Chars": 3182
   },
   {
-    "Chapter": "52. The Mount",
+    "Chapter": "52. The Mount (At-Tur)",
     "Verses": 49,
     "Words": 680,
     "Chars": 2852
   },
   {
-    "Chapter": "53. The Star",
+    "Chapter": "53. The Star (An-Najm)",
     "Verses": 62,
     "Words": 738,
     "Chars": 3072
   },
   {
-    "Chapter": "54. The Moon",
+    "Chapter": "54. The Moon (Al-Qamar)",
     "Verses": 55,
     "Words": 723,
     "Chars": 3155
   },
   {
-    "Chapter": "55. The Beneficent",
+    "Chapter": "55. The Beneficent (Ar-Rahman)",
     "Verses": 78,
     "Words": 815,
     "Chars": 3278
   },
   {
-    "Chapter": "56. The Inevitable",
+    "Chapter": "56. The Inevitable (Al-Waqi'ah)",
     "Verses": 96,
     "Words": 849,
     "Chars": 3538
   },
   {
-    "Chapter": "57. The Iron",
+    "Chapter": "57. The Iron (Al-Hadid)",
     "Verses": 29,
     "Words": 1188,
     "Chars": 5139
   },
   {
-    "Chapter": "58. The Pleading Woman",
+    "Chapter": "58. The Pleading Woman (Al-Mujadila)",
     "Verses": 22,
     "Words": 920,
     "Chars": 4111
   },
   {
-    "Chapter": "59. The Exile",
+    "Chapter": "59. The Exile (Al-Hashr)",
     "Verses": 24,
     "Words": 897,
     "Chars": 3971
   },
   {
-    "Chapter": "60. She that is to be examined",
+    "Chapter": "60. She that is to be examined (Al-Mumtahanah)",
     "Verses": 13,
     "Words": 715,
     "Chars": 3129
   },
   {
-    "Chapter": "61. The Ranks",
+    "Chapter": "61. The Ranks (As-Saff)",
     "Verses": 14,
     "Words": 425,
     "Chars": 1828
   },
   {
-    "Chapter": "62. Friday",
+    "Chapter": "62. Friday (Al-Jumu'ah)",
     "Verses": 11,
     "Words": 341,
     "Chars": 1406
   },
   {
-    "Chapter": "63. The Hypocrites",
+    "Chapter": "63. The Hypocrites (Al-Munafiqun)",
     "Verses": 11,
     "Words": 367,
     "Chars": 1558
   },
   {
-    "Chapter": "64. Mutual Disillusion",
+    "Chapter": "64. Mutual Disillusion (At-Taghabun)",
     "Verses": 18,
     "Words": 503,
     "Chars": 2182
   },
   {
-    "Chapter": "65. Divorce",
+    "Chapter": "65. Divorce (Al-Talaq)",
     "Verses": 12,
     "Words": 562,
     "Chars": 2511
   },
   {
-    "Chapter": "66. The Prohibition",
+    "Chapter": "66. The Prohibition (Al-Tahrim)",
     "Verses": 12,
     "Words": 478,
     "Chars": 2115
   },
   {
-    "Chapter": "67. The Sovereignty",
+    "Chapter": "67. The Sovereignty (Al-Mulk)",
     "Verses": 30,
     "Words": 659,
     "Chars": 2707
   },
   {
-    "Chapter": "68. The Pen",
+    "Chapter": "68. The Pen (Al-Qalam)",
     "Verses": 52,
     "Words": 650,
     "Chars": 2760
   },
   {
-    "Chapter": "69. The Reality",
+    "Chapter": "69. The Reality (Al-Haqqah)",
     "Verses": 52,
     "Words": 575,
     "Chars": 2318
   },
   {
-    "Chapter": "70. The Ascending Stairways",
+    "Chapter": "70. The Ascending Stairways (Al-Ma'arij)",
     "Verses": 44,
     "Words": 448,
     "Chars": 1945
   },
   {
-    "Chapter": "71. Noah",
+    "Chapter": "71. Noah (Nuh)",
     "Verses": 28,
     "Words": 430,
     "Chars": 1900
   },
   {
-    "Chapter": "72. The Jinn",
+    "Chapter": "72. The Jinn (Al-Jinn)",
     "Verses": 28,
     "Words": 573,
     "Chars": 2424
   },
   {
-    "Chapter": "73. The Enshrouded One",
+    "Chapter": "73. The Enshrouded One (Al-Muzzammil)",
     "Verses": 20,
     "Words": 422,
     "Chars": 1750
   },
   {
-    "Chapter": "74. The Cloaked One",
+    "Chapter": "74. The Cloaked One (Al-Mudaththir)",
     "Verses": 56,
     "Words": 526,
     "Chars": 2274
   },
   {
-    "Chapter": "75. The Resurrection",
+    "Chapter": "75. The Resurrection (Al-Qiyamah)",
     "Verses": 40,
     "Words": 353,
     "Chars": 1445
   },
   {
-    "Chapter": "76. Man",
+    "Chapter": "76. Man (Al-Insan)",
     "Verses": 31,
     "Words": 520,
     "Chars": 2252
   },
   {
-    "Chapter": "77. The Emissaries",
+    "Chapter": "77. The Emissaries (Al-Mursalat)",
     "Verses": 50,
     "Words": 402,
     "Chars": 1653
   },
   {
-    "Chapter": "78. The Announcement",
+    "Chapter": "78. The Announcement (An-Naba)",
     "Verses": 40,
     "Words": 374,
     "Chars": 1618
   },
   {
-    "Chapter": "79. Those who drag forth",
+    "Chapter": "79. Those who drag forth (An-Naziat)",
     "Verses": 46,
     "Words": 418,
     "Chars": 1783
   },
   {
-    "Chapter": "80. He frowned",
+    "Chapter": "80. He frowned (Abasa)",
     "Verses": 42,
     "Words": 306,
     "Chars": 1329
   },
   {
-    "Chapter": "81. The Overthrowing",
+    "Chapter": "81. The Overthrowing (At-Takwir)",
     "Verses": 29,
     "Words": 243,
     "Chars": 1005
   },
   {
-    "Chapter": "82. The Cleaving",
+    "Chapter": "82. The Cleaving (Al-Infitar)",
     "Verses": 19,
     "Words": 171,
     "Chars": 730
   },
   {
-    "Chapter": "83. Defrauding",
+    "Chapter": "83. Defrauding (Al-Mutaffifin)",
     "Verses": 36,
     "Words": 350,
     "Chars": 1520
   },
   {
-    "Chapter": "84. The Splitting Open",
+    "Chapter": "84. The Splitting Open (Al-Inshiqaq)",
     "Verses": 25,
     "Words": 243,
     "Chars": 993
   },
   {
-    "Chapter": "85. The Constellations",
+    "Chapter": "85. The Constellations (Al-Buruj)",
     "Verses": 22,
     "Words": 211,
     "Chars": 995
   },
   {
-    "Chapter": "86. The Morning Star",
+    "Chapter": "86. The Morning Star (At-Tariq)",
     "Verses": 17,
     "Words": 132,
     "Chars": 523
   },
   {
-    "Chapter": "87. The Most High",
+    "Chapter": "87. The Most High (Al-A'la)",
     "Verses": 19,
     "Words": 144,
     "Chars": 638
   },
   {
-    "Chapter": "88. The Overwhelming",
+    "Chapter": "88. The Overwhelming (Al-Ghashiyah)",
     "Verses": 26,
     "Words": 191,
     "Chars": 835
   },
   {
-    "Chapter": "89. The Dawn",
+    "Chapter": "89. The Dawn (Al-Fajr)",
     "Verses": 30,
     "Words": 293,
     "Chars": 1211
   },
   {
-    "Chapter": "90. The City",
+    "Chapter": "90. The City (Al-Balad)",
     "Verses": 20,
     "Words": 177,
     "Chars": 727
   },
   {
-    "Chapter": "91. The Sun",
+    "Chapter": "91. The Sun (Al-Shams)",
     "Verses": 15,
     "Words": 157,
     "Chars": 655
   },
   {
-    "Chapter": "92. The Night",
+    "Chapter": "92. The Night (Al-Layl)",
     "Verses": 21,
     "Words": 172,
     "Chars": 703
   },
   {
-    "Chapter": "93. The Morning Hours",
+    "Chapter": "93. The Morning Hours (Ad-Duha)",
     "Verses": 11,
     "Words": 108,
     "Chars": 418
   },
   {
-    "Chapter": "94. The Consolation",
+    "Chapter": "94. The Consolation (Al-Inshirah)",
     "Verses": 8,
     "Words": 62,
     "Chars": 265
   },
   {
-    "Chapter": "95. The Fig",
+    "Chapter": "95. The Fig (At-Tin)",
     "Verses": 8,
     "Words": 69,
     "Chars": 280
   },
   {
-    "Chapter": "96. The Clot",
+    "Chapter": "96. The Clot (Al-'Alaq)",
     "Verses": 19,
     "Words": 134,
     "Chars": 557
   },
   {
-    "Chapter": "97. The Power, Fate",
+    "Chapter": "97. The Power, Fate (Al-Qadr)",
     "Verses": 5,
     "Words": 56,
     "Chars": 237
   },
   {
-    "Chapter": "98. The Evidence",
+    "Chapter": "98. The Evidence (Al-Bayyina)",
     "Verses": 8,
     "Words": 169,
     "Chars": 822
   },
   {
-    "Chapter": "99. The Earthquake",
+    "Chapter": "99. The Earthquake (Al-Zalzalah)",
     "Verses": 8,
     "Words": 75,
     "Chars": 319
   },
   {
-    "Chapter": "100. The Chargers",
+    "Chapter": "100. The Chargers (Al-'Adiyat)",
     "Verses": 11,
     "Words": 83,
     "Chars": 373
   },
   {
-    "Chapter": "101. The Calamity",
+    "Chapter": "101. The Calamity (Al-Qaria)",
     "Verses": 11,
     "Words": 86,
     "Chars": 343
   },
   {
-    "Chapter": "102. Competition",
+    "Chapter": "102. Competition (Al-Takathur)",
     "Verses": 8,
     "Words": 60,
     "Chars": 259
   },
   {
-    "Chapter": "103. The Declining Day, Epoch",
+    "Chapter": "103. The Declining Day, Epoch (Al-Asr)",
     "Verses": 3,
     "Words": 29,
     "Chars": 132
   },
   {
-    "Chapter": "104. The Traducer",
+    "Chapter": "104. The Traducer (Al-Humazah)",
     "Verses": 9,
     "Words": 66,
     "Chars": 297
   },
   {
-    "Chapter": "105. The Elephant",
+    "Chapter": "105. The Elephant (Al-Fil)",
     "Verses": 5,
     "Words": 46,
     "Chars": 203
   },
   {
-    "Chapter": "106. Quraysh",
+    "Chapter": "106. Quraysh (Al-Quraysh)",
     "Verses": 4,
     "Words": 41,
     "Chars": 186
   },
   {
-    "Chapter": "107. Almsgiving",
+    "Chapter": "107. Almsgiving (Al-Ma'un)",
     "Verses": 7,
     "Words": 52,
     "Chars": 218
   },
   {
-    "Chapter": "108. Abundance",
+    "Chapter": "108. Abundance (Al-Kawthar)",
     "Verses": 3,
     "Words": 26,
     "Chars": 108
   },
   {
-    "Chapter": "109. The Disbelievers",
+    "Chapter": "109. The Disbelievers (Al-Kafirun)",
     "Verses": 6,
     "Words": 48,
     "Chars": 191
   },
   {
-    "Chapter": "110. Divine Support",
+    "Chapter": "110. Divine Support (Al-Nasr)",
     "Verses": 3,
     "Words": 43,
     "Chars": 191
   },
   {
-    "Chapter": "111. The Palm Fibre",
+    "Chapter": "111. The Palm Fibre (Al-Masad)",
     "Verses": 5,
     "Words": 52,
     "Chars": 193
   },
   {
-    "Chapter": "112. Sincerity",
+    "Chapter": "112. Sincerity (Al-Ikhlas)",
     "Verses": 4,
     "Words": 24,
     "Chars": 93
   },
   {
-    "Chapter": "113. The Dawn",
+    "Chapter": "113. The Dawn (Al-Falaq)",
     "Verses": 5,
     "Words": 45,
     "Chars": 170
   },
   {
-    "Chapter": "114. Mankind",
+    "Chapter": "114. Mankind (An-Nas)",
     "Verses": 6,
     "Words": 38,
     "Chars": 167
