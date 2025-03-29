@@ -1,0 +1,16 @@
+---
+import Layout from '@/layouts/layout.astro'
+import Card from '@/components/cards/card-common.astro'
+import ChartSurah from '@/components/charts/chart-surah'
+---
+
+<Layout>
+  <h1 class="text-3xl">Surahs</h1>
+  <p class="text-muted-foreground">Statistics of Surahs (Chapters) of Al-Qur'an.</p>
+
+  <div>
+    <Card title="Surahs Stats" description="Number of Ayahs in each Surah">
+      <ChartSurah client:load />
+    </Card>
+  </div>
+</Layout>

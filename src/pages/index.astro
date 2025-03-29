@@ -1,25 +1,16 @@
 ---
-import '../styles/global.css';
-// Component Imports
-import Button from '../components/Button.astro';
-
-// Full Astro Component Syntax:
-// https://docs.astro.build/basics/astro-components/
+import Layout from "@/layouts/layout.astro";
+import Card from "@/components/cards/card-common.astro";
+import Table from "@/components/tables/table-overview.astro";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro + TailwindCSS</title>
-	</head>
+<Layout>
+  <h1 class="text-3xl">Overview</h1>
+  <p class="text-muted-foreground">Basic Statistics of Al-Qur'an.</p>
 
-	<body>
-		<div class="grid place-items-center h-screen content-center">
-			<Button>Tailwind Button in Astro!</Button>
-			<a href="/markdown-page" class="p-4 underline">Markdown is also supported...</a>
-		</div>
-	</body>
-</html>
+  <div class="max-w-lg">
+    <Card title="Basic Stats" description="General Information of Al-Qur'an">
+      <Table />
+    </Card>
+  </div>
+</Layout>

@@ -1,0 +1,15 @@
+---
+import Layout from '@/layouts/layout.astro'
+import Card from '@/components/cards/card-common.astro'
+import ChartJuz from '@/components/charts/chart-juz'
+---
+
+<Layout>
+  <h1 class="text-3xl">Juz</h1>
+  <p class="text-muted-foreground">Statistics of Juz. Al-Qur'an is divided into 30 Juz.</p>
+
+  <div>
+    <Card title="Juz Stats" description="Number of Surahs and Ayahs in each Juz">
+      <ChartJuz client:load />
+    </Card>
+</Layout>

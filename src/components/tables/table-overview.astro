@@ -1,0 +1,58 @@
+---
+import {
+  Table,
+  TableBody,
+  TableCaption,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
+
+const data = [
+  {
+    category: "Juz (Part)",
+    total: 30,
+  },
+  {
+    category: "Hizb (Half of Juz)",
+    total: 60,
+  },
+  {
+    category: "Rub' al-Hizb (Quarter of Hizb)",
+    total: 240,
+  },
+  {
+    category: "Surahs (Chapters)",
+    total: 114,
+  },
+  {
+    category: "Ayahs (Verses)",
+    total: 6236,
+  },
+  {
+    category: "Pages (in Standard Edition)",
+    total: 604,
+  }
+];
+---
+
+<Table>
+  <TableCaption>List of common statistics in Al-Qur'an</TableCaption>
+  <TableHeader>
+    <TableRow>
+      <TableHead className="w-2">Category</TableHead>
+      <TableHead className="text-right">Total</TableHead>
+    </TableRow>
+  </TableHeader>
+  <TableBody>
+    {
+      data.map((item) => (
+        <TableRow>
+          <TableCell className="font-medium">{item.category}</TableCell>
+          <TableCell className="text-right">{item.total}</TableCell>
+        </TableRow>
+      ))
+    }
+  </TableBody>
+</Table>
