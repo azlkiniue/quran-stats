@@ -6,6 +6,8 @@ import react from '@astrojs/react';
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://azlkiniue.github.io',
+  base: 'quran-stats',
   vite: {
       plugins: [tailwindcss()]
 	},
