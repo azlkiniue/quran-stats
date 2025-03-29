@@ -1,7 +1,7 @@
 {
   "name": "quran-stats",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.1-imphnen",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
